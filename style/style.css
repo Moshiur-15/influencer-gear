@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.open-sans-normal{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* sheard style here */
+.btn-primary{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    border: none;
+}
+.section{
+    margin: 0 auto;
+    max-width: 1110px;
+}
+.container-title{
+    color: rgb(24, 25, 31);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.container-tk{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+}
+.container-description{
+    color: rgb(120, 120, 133);
+    font-size: 14px;
+    font-weight: 700;
+}
+.color{
+    color: white;
+}
+/* navber style start here */
+.navber{
+    margin: 0 auto;
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: rem;
+    font-weight: 600;
+}
+.nav-img{
+    width: 29px;
+    height: 29px;
+}
+/* banner style here */
+.banners{
+    max-width: 1110px;
+    display: flex;
+    margin: 0 auto;
+}
+.banner{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+} 
+
+.banner-images{
+    width: 50%;
+    background-image:url(../images/Circle\ design.svg) ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-images img{
+    max-width: 440px;
+}
+.banner-title{
+    color: rgb(58, 58, 58);
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.banner-description{
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+/* wab-link style here*/
+.wab-link{
+    padding: 36px;
+    border: 1px solid rgba(192, 204, 218, 0.6);
+    margin-top: 70px;
+}
+.wab-link{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 20px;
+}
+/* Popular Collection style here */
+.containers-title{
+    color: rgb(58, 58, 58);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.containers{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3 , 1fr);
+}
+.container{
+    padding: 17px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+.container img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+/* last section start here */
+
+.last-section{
+    width: 1110px;
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 100px;
+}
+.last-section-text{
+    margin-left: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.last-section-btn{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    background: rgb(224, 44, 109);
+    width: 130px;
+    padding: 8px;
+    border: none;
+}
+.last-section-title{
+    color: rgb(10, 8, 38);
+font-size: 38px;
+font-weight: 700;
+margin-bottom: 1rem;
+}
+.last-section-description{
+    color: rgb(108, 108, 108);
+font-size: 16px;
+font-weight: 700;
+margin-bottom: 1rem;
+}
+/* footer style */
+footer{
+    background-color: rgb(28, 29, 112);
+    height: 206px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.footer-contaient{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.none{
+    display: none;
+}
+@media screen and (max-width:576px){
+    .containers{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container{
+        margin-left: 40px;
+    }
+}
